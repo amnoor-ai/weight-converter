@@ -18,7 +18,7 @@ function updateResults(){
     clearTimeout(resultTime);
     resultTime = setTimeout(() => {
         resultEl.innerText = ""; 
-        inputEl,value = "";
+        inputEl.value = "";
     },10000)
 }
 }
